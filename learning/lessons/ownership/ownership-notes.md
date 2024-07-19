@@ -5,7 +5,7 @@
 - Rules are enforced at compile time.
 - If any of the rules are violated, the program won't compile
 
-### 3 Rules of Ownership
+## 3 Rules of Ownership
 
 1. Each value in Rust has an owner.
 2. There can only be one owner at a time.
@@ -86,7 +86,7 @@ let s2 = s1;
 ![copy vs. move 1](image-1.png)
 ![copy vs. move 2](image-2.png)
 
-#### Deep Copy
+### Deep Copy
 
 ```rs
 let s1 = String::from("Hello");
@@ -120,7 +120,7 @@ let s2 = s1.clone();
 
 ![example of reference](image-4.png)
 
-**Example of Mutable Reference**
+#### Example of Mutable Reference
 
 ```rs
 fn main(){

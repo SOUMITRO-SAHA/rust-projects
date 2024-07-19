@@ -1,7 +1,6 @@
 # Functions
 
-### Functions
-
+- A way to encapsulate program functionality
 - Block of reusable code that performs a specific tasks
 - Can take arguments, processes those inputs and returns a result
 
@@ -16,7 +15,7 @@ fn sum(a: i32, b: i32) {
 }
 ```
 
-### Diverging functions
+## Diverging functions
 
 - Never return to the caller
 - E.g. panic, looping forever, quitting the program

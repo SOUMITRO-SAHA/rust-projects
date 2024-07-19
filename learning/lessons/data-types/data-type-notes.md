@@ -1,4 +1,24 @@
-# Numbers - Integer Types
+# Data Types
+
+- Memory only stores binary data
+  - Anything can be represented in binary
+- Program determines what the binary represents
+- Basic types that are universally useful are provided by the language
+
+## Basic Data Types
+
+- Boolean
+  - true, false
+- Integer
+  - 1, 3, 5
+- Double/Float
+  - 1.1, 4.55, 2.0
+- Character
+  - 'A', 'b', 'c', '$', '#', '4'
+- String
+  - "Hello", "String", "this is a string"
+
+## Numbers - Integer Types
 
 - Signed integer: Can represent both **positive** and **negative** integers.
 - Unsigned integer: Always positive integers
@@ -10,14 +30,14 @@
 | 32-bit  | i32     | u32      |
 | 64-bit  | i64     | u64      |
 | 128-bit | i128    | u128     |
-| arch    | i<size> | u<size>  |
+| arch    | isize | usize  |
 
-##### Numbers - Default Types
+### Numbers - Default Types
 
 - Integer: `i32`
 - Floats: `f64`
 
-##### Numbers - Ranges
+## Numbers - Ranges
 
 - Smallest possible 8-bit integer (Unsigned): 0
 - Largest possible 8-bit integer (Unsigned): 255
@@ -35,7 +55,7 @@
 | u16       | 0           | 65535      |
 | u32       | 0           | 4294967295 |
 
-#### Numbers - `usize` & `isize`
+## Numbers - `usize` & `isize`
 
 - Architecture dependent
 - On 32-bit architecture: 32-bit
@@ -47,7 +67,7 @@
 - In a 32-bit processor it can access 4 bytes (32 bits) at a time.
 - In a 64-bit processor it can access 8 bytes (64 bits) at a time.
 
-#### Numbers - Floating Point
+## Numbers - Floating Point
 
 - f32 - size of 32 bits
 - f64 - size of 64 bits

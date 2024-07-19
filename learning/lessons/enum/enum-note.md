@@ -1,5 +1,7 @@
 # Enum
 
+- Data that can be one of multiple different possibilities
+  - Each possibility is called a "variant".
 - Way of defining a type with only one of a possible set of values
 - We can only access one variant of an enum at a time
 - Can hold additional information using tuples

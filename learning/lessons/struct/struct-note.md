@@ -1,5 +1,8 @@
 # Struct
 
+- A type that contains multiple pieces of data
+  - All or noting - cannot have some pieces of data and not others
+- Each piece of data is called a "field"
 - Compound type allowing to group together values of different types into a named data structure
 - Similar to tuple, but each value has a **name** so values can be **accessed** through this name
 - Have to be **instanciated** with data, think of it like the struct is the **template for the instances** you create from it.
